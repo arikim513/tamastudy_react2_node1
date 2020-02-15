@@ -9,23 +9,24 @@ const HomeMainContainer: React.FC<Props> = () => {
       <div
         css={css`
           height: 80px;
-          background-color: black;
+          background-color: blue;
           color: white;
           display: flex;
-          justify-content: center;
           align-items: center;
+          justify-content: center;
         `}
       >
         <div
           css={css`
             width: 100px;
             height: 50px;
-            background-color: red;
+            background-color: brown;
             display: flex;
-            justify-content: center;
             align-items: center;
-            text-transform: uppercase;
+            justify-content: center;
             font-size: 1.5rem;
+            text-transform: uppercase;
+            color: yellow;
           `}
         >
           LOGO
@@ -34,7 +35,7 @@ const HomeMainContainer: React.FC<Props> = () => {
       <div
         css={css`
           height: 200px;
-          background-color: black;
+          background-color: grey;
           color: white;
         `}
       >
@@ -42,12 +43,12 @@ const HomeMainContainer: React.FC<Props> = () => {
       </div>
       <div
         css={css`
-          height: calc(100vh - 80px - 200px - 80px);
+          height: calc(100vh - 320px);
           background-color: black;
           color: white;
         `}
       >
-        CONTENT
+        contents
       </div>
       <div
         css={css`
@@ -65,7 +66,8 @@ const HomeMainContainer: React.FC<Props> = () => {
           color: white;
         `}
       >
-        FOOTER
+        FOOTER ======= background-color: green; color: white; `} > footer >>>>>>>
+        499864177e8793580944b8f34fdbe6200e872b10
       </div>
     </div>
   );
