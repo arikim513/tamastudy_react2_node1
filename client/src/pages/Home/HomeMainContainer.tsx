@@ -66,8 +66,7 @@ const HomeMainContainer: React.FC<Props> = () => {
           color: white;
         `}
       >
-        FOOTER ======= background-color: green; color: white; `} > footer >>>>>>>
-        499864177e8793580944b8f34fdbe6200e872b10
+        FOOTER
       </div>
     </div>
   );
